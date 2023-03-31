@@ -1,0 +1,42 @@
+Assignment NO 1:
+Declare An Array And Print Each And Every Element To The Console 
+
+let array = [1, 2 , 3, 4, 5];
+
+ console.log(array)
+ 
+       Assignment NO 2:
+Write A Function Which Takes An Array As Argument And Returns All Array Elements 
+
+      Step 1 with integers
+
+function arr(num:number[]):number[]{
+ 
+    return num;
+}
+let num =[1,2,3,4,5];
+console.log(arr(num));
+
+        Step 2 with string
+
+function arr(vegatable_Names: string[]):string[]{
+ 
+        return vegatable_Names;
+    }
+    let vegatable_Names =["potato","tomato", "garlic", "chili", "Pea", "Onion"];
+    console.log(arr(vegatable_Names));
+
+
+Assignment 3
+
+let int = [1, 2, 3, 4, 5];
+
+    With step 1
+let sum = int.reduce((a,b) => a + b)\
+console.log(sum);
+    
+    With step 2
+ let sum = int.reduce(function(a,b){
+     return a + b
+})
+console.log(sum);
